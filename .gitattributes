@@ -1,3 +1,7 @@
 *.pbxproj -text
 # specific for windows script files
 *.bat text eol=crlf
+
+# exclude generated example native projects from GitHub language stats
+example/android/** linguist-generated
+example/ios/** linguist-generated
